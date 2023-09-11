@@ -12,6 +12,7 @@ public class ForgotPassword {
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com/");
         driver.findElement(By.linkText("Forgot password?")).click();
-	}
+        System.out.println(driver.getTitle());	
+        }
 
 }
